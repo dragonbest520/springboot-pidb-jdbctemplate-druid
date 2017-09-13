@@ -1,0 +1,10 @@
+spring:
+  datasource:
+      driver-class-name: com.osisoft.jdbc.Driver
+      url: jdbc:pioledb://localhost/Data Source=PIServer1; Integrated Security=SSPI
+  mvc:
+      view:
+        prefix: /WEB-INF/views/
+        suffix: .jsp
+server:
+  port: 8888
